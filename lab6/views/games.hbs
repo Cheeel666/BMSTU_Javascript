@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ученики</title>
+
+    <div style="background: lightgreen;">
+</head>
+
+<body>
+    <h2>
+        {{descriptionValue}}
+    </h2>
+
+    {{#each gameArray}}
+    <div style="background: lightblue; margin-bottom: 15px; padding: 8px;">
+        Название игры: {{this.name}}
+        <br>
+        Описание игры: {{this.description}}
+        <br>
+        Возрастное ограничение: {{this.age}}
+    </div>
+    {{/each}}
+
+</body>
+
+</html>

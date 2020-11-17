@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Страница A</title>
+</head>
+
+<body>
+    <h1>Страница B</h1>
+    <form method="GET" action="/insert/store">
+        <p>Введите название склада</p>
+        <input name="storeName" spellcheck="false" autocomplete="off">
+        <p>Введите модели машин через запятую</p>
+        <input name="cars" spellcheck="false" autocomplete="off">
+        <br>
+        <br>
+        <input type="submit" value="Отправить запрос">
+    </form>
+    <form method="GET" action="/select/store">
+        <p>Введите название склада</p>
+        <input name="storeName" spellcheck="false" autocomplete="off">
+        <br>
+        <br>
+        <input type="submit" value="Отправить запрос">
+    </form>
+</body>
